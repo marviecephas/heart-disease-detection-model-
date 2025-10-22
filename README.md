@@ -1,7 +1,7 @@
 
 -----
 
-# 🩺 Heart Disease Prediction Project
+# 🩺 Heart Disease Detection Model
 
 This project aims to build a machine learning model to accurately predict the presence of heart disease based on various medical factors. By leveraging supervised classification algorithms, this tool can serve as an early-warning system, helping users assess their risk and seek medical attention sooner.
 
