@@ -1,10 +1,9 @@
-from google.colab import drive
+
 import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas as pd # Import pandas
 
-drive.mount('/content/drive')
-file_path = '/content/drive/MyDrive/heart.csv'
+file_path = 'heart.csv'
 
 df = pd.read_csv(file_path)
 print(df.head(50))
