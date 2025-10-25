@@ -1,14 +1,14 @@
-from google.colab import drive
+
 import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas as pd
 import numpy as np
- sklearn.model_selection import train_test_split
+from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import ConfusionMatrixDisplay, confusion_matrix, accuracy_score, precision_score, recall_score, f1_score
 
-drive.mount('/content/drive')
-file_path = '/content/drive/MyDrive/heart.csv'
+
+file_path = 'heart.csv'
 
 df = pd.read_csv(file_path)
 print(df.head(50))
